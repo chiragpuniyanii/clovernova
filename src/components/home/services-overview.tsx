@@ -76,8 +76,10 @@ const getServiceHref = (title: string) => {
       return "/contact?service=digital-marketing";
     case "SEO Optimization":
       return "/contact?service=seo";
-    case "Ethical Hacking":
-      return "/contact?service=ethical-hacking";
+    case "UI/UX Design":
+      return "/contact?service=ui-ux-design";
+    case "Shopify E-Commerce":
+      return "/contact?service=ecommerce";
     default:
       return "/contact?service=other";
   }

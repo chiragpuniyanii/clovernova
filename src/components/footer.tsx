@@ -115,18 +115,24 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/digital-marketing" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Digital Marketing
+                <Link href="/services/ui-ux-design" className="text-muted-foreground hover:text-foreground transition-colors">
+                  UI/UX Design
                 </Link>
               </li>
               <li>
-                <Link href="/services/seo-services" className="text-muted-foreground hover:text-foreground transition-colors">
-                  SEO Services
+                <Link href="/services/ecommerce" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Shopify E-Commerce
                 </Link>
               </li>
               <li>
-                <Link href="/services/ethical-hacking" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Ethical Hacking
+                <Link href="/services/cloud-solutions" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Cloud Solutions
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/devops" className="text-foreground font-medium hover:text-primary transition-colors flex items-center">
+                  DevOps & CI/CD
+                  <span className="ml-2 text-[9px] bg-primary/20 text-primary px-1.5 py-0.5 rounded-sm uppercase tracking-wider font-bold">Specialized</span>
                 </Link>
               </li>
             </ul>

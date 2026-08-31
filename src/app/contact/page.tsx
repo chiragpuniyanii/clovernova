@@ -41,7 +41,7 @@ function ContactFormContent() {
 
   useEffect(() => {
     if (serviceQuery) {
-      const validOptions = ["web-development", "app-development", "digital-marketing", "seo", "ethical-hacking", "other"];
+      const validOptions = ["web-development", "app-development", "ui-ux-design", "ecommerce", "devops", "digital-marketing", "seo", "other"];
       if (validOptions.includes(serviceQuery)) {
         setValue("service", serviceQuery);
       } else {
@@ -129,9 +129,11 @@ function ContactFormContent() {
               <option value="">Select a service...</option>
               <option value="web-development">Web Development</option>
               <option value="app-development">App Development</option>
+              <option value="ui-ux-design">UI/UX Design</option>
+              <option value="ecommerce">E-Commerce / Shopify</option>
+              <option value="devops">DevOps & CI/CD</option>
               <option value="digital-marketing">Digital Marketing</option>
               <option value="seo">SEO Optimization</option>
-              <option value="ethical-hacking">Ethical Hacking</option>
               <option value="other">Other</option>
             </select>
             {errors.service && <p className="text-red-500 text-sm mt-1">{errors.service.message}</p>}
@@ -145,11 +147,11 @@ function ContactFormContent() {
               className={`w-full h-12 px-4 rounded-md border bg-background text-foreground ${errors.budget ? 'border-red-500 focus:ring-red-500' : 'border-input focus:border-primary focus:ring-1 focus:ring-primary'} outline-none transition-all`}
             >
               <option value="">Select budget range...</option>
-              <option value="<5k">Less than $5,000</option>
-              <option value="5k-10k">$5,000 - $10,000</option>
-              <option value="10k-25k">$10,000 - $25,000</option>
-              <option value="25k-50k">$25,000 - $50,000</option>
-              <option value="50k+">$50,000+</option>
+              <option value="<50k">Less than ₹50,000</option>
+              <option value="50k-1L">₹50,000 - ₹1,00,000</option>
+              <option value="1L-5L">₹1,00,000 - ₹5,00,000</option>
+              <option value="5L-10L">₹5,00,000 - ₹10,00,000</option>
+              <option value="10L+">₹10,00,000+</option>
             </select>
             {errors.budget && <p className="text-red-500 text-sm mt-1">{errors.budget.message}</p>}
           </div>

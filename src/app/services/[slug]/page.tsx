@@ -38,6 +38,34 @@ const serviceDetails = {
     content: "We simulate real-world cyberattacks to uncover vulnerabilities in your systems before malicious hackers do, ensuring your data and reputation remain safe.",
     features: ["Web App Penetration Testing", "Network Security Audits", "Vulnerability Assessments", "Compliance Readiness"],
     tech: ["Kali Linux", "Metasploit", "Burp Suite", "Nmap", "Wireshark"]
+  },
+  "ui-ux-design": {
+    title: "UI/UX Design",
+    description: "Intuitive and beautiful user interfaces that enhance user experience.",
+    content: "Our design team crafts user-centric digital experiences that are visually stunning and highly functional, ensuring your audience stays engaged and converts.",
+    features: ["Wireframing & Prototyping", "User Research & Testing", "Interactive Design", "Design Systems"],
+    tech: ["Figma", "Adobe XD", "Sketch", "Framer", "InVision"]
+  },
+  "ecommerce": {
+    title: "Shopify E-Commerce",
+    description: "High-converting, robust e-commerce stores built to scale.",
+    content: "We build and optimize Shopify stores tailored to your brand, focusing on speed, user experience, and maximizing your online sales.",
+    features: ["Custom Shopify Themes", "App Integrations", "Conversion Optimization", "Payment Gateway Setup"],
+    tech: ["Shopify", "Liquid", "React", "Node.js", "GraphQL"]
+  },
+  "devops": {
+    title: "DevOps & CI/CD",
+    description: "Streamline your development lifecycle with automated deployment pipelines.",
+    content: "We implement robust DevOps practices to accelerate your software delivery, improve reliability, and scale your infrastructure effortlessly.",
+    features: ["CI/CD Pipelines", "Containerization", "Infrastructure as Code", "Monitoring & Alerting"],
+    tech: ["Docker", "Kubernetes", "GitHub Actions", "Terraform", "AWS"]
+  },
+  "cloud-solutions": {
+    title: "Cloud Solutions",
+    description: "Scalable cloud architecture and deployment strategies.",
+    content: "Leverage the power of the cloud with our expert architecture planning, migration, and management services across major cloud providers.",
+    features: ["Cloud Migration", "Serverless Architecture", "Database Optimization", "Cost Optimization"],
+    tech: ["AWS", "Google Cloud", "Azure", "Vercel", "Cloudflare"]
   }
 };
 
