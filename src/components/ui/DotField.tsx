@@ -88,7 +88,7 @@ const DotField = memo(({
     }
 
     function buildDots(w: number, h: number) {
-      const p = propsRef.current as DotFieldProps;
+      const p = propsRef.current as Required<DotFieldProps>;
       const step = p.dotRadius + p.dotSpacing;
       const cols = Math.floor(w / step);
       const rows = Math.floor(h / step);
@@ -133,7 +133,7 @@ const DotField = memo(({
       const dots = dotsRef.current;
       const m = mouseRef.current;
       const { w, h } = sizeRef.current;
-      const p = propsRef.current as DotFieldProps;
+      const p = propsRef.current as Required<DotFieldProps>;
       const len = dots.length;
       const t = frameCount * 0.02;
 
