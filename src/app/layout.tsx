@@ -13,7 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "CloverNova | Think Big. We Handle The Rest.",
-  description: "Turning Chaos Into Code. CloverNova is a premier freelancing agency specializing in web development, app development, digital marketing, and cybersecurity.",
+  description: "Think Big. We Handle The Rest. CloverNova builds complete, production-ready solutions to bring your digital vision to life through expert web, app, and digital marketing services.",
   icons: {
     icon: "/clovernova.jpeg",
   },

@@ -32,8 +32,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground mb-6">
-              Turning Chaos Into Code. We build complete, production-ready
-              solutions for your business.
+              Think Big. We Handle The Rest. We build complete, production-ready 
+              solutions to bring your digital vision to life.
             </p>
             <div className="flex items-center gap-4 text-foreground/70">
               <a

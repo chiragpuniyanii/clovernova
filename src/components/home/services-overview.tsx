@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Smartphone, Megaphone, Search, ShieldAlert, Layout, ShoppingCart, PenTool, Cloud, ArrowRight } from "lucide-react";
+import { Code2, Smartphone, Megaphone, Search, ShieldAlert, Layout, ShoppingCart, PenTool, Cloud, ArrowRight, Server, Plus } from "lucide-react";
 import Link from "next/link";
 
 const services = [
@@ -49,6 +49,16 @@ const services = [
     title: "Cloud Solutions",
     description: "Scalable cloud architecture and deployment solutions to ensure your applications run smoothly and securely.",
     icon: Cloud,
+  },
+  {
+    title: "DevOps & CI/CD",
+    description: "Streamline your development lifecycle with Docker, Kubernetes, automated deployment pipelines, and many more.",
+    icon: Server,
+  },
+  {
+    title: "And Many More...",
+    description: "Discover a wide range of additional services designed to accelerate your business growth and digital transformation.",
+    icon: Plus,
   },
 ];
 
