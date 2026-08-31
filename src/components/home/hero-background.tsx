@@ -19,6 +19,7 @@ export function HeroBackground() {
 
     let animationFrameId: number;
     let stars: Star[] = [];
+    let speedTimeout: ReturnType<typeof setTimeout> | undefined;
     
     // Mouse state
     let targetSpeed = 2; // Default resting speed
@@ -46,8 +47,8 @@ export function HeroBackground() {
       targetSpeed = Math.min(8, 2 + (distance * 0.05));
       
       // Reset speed after a timeout
-      clearTimeout((window as any).speedTimeout);
-      (window as any).speedTimeout = setTimeout(() => {
+      if (speedTimeout) clearTimeout(speedTimeout);
+      speedTimeout = setTimeout(() => {
         targetSpeed = 1.5;
       }, 300);
     };
