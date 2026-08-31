@@ -46,9 +46,9 @@ export function WhyCloverNova() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative"
+            className="relative w-full max-w-xl mx-auto lg:max-w-none"
           >
-            <div className="relative rounded-2xl overflow-hidden shadow-xl border border-border/50 bg-white dark:bg-black z-10">
+            <div className="relative rounded-2xl overflow-hidden shadow-xl border border-border/50 bg-white dark:bg-black z-10 w-full">
               <Image
                 src="/clovernova.jpeg"
                 alt="CloverNova Logo"
