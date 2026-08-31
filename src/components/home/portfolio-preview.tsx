@@ -61,7 +61,7 @@ export function PortfolioPreview() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Explore some of our recent projects and see how we've helped businesses achieve their digital goals.
+              Explore some of our recent projects and see how we&apos;ve helped businesses achieve their digital goals.
             </motion.p>
           </div>
           <Link 

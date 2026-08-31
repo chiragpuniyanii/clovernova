@@ -23,7 +23,7 @@ export default function PortfolioPage() {
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-green-400">Portfolio</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Explore our recent projects and see how we've helped brands transform their digital presence.
+            Explore our recent projects and see how we&apos;ve helped brands transform their digital presence.
           </p>
         </div>
       </section>

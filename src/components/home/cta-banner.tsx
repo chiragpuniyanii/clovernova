@@ -23,7 +23,7 @@ export function CtaBanner() {
             Ready to Start?
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold font-space-grotesk mb-6">
-            Let's Build Something <br className="hidden md:block" />
+            Let&apos;s Build Something <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-green-400">Extraordinary</span>
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">

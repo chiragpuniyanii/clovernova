@@ -1,6 +1,6 @@
 import { ServicesOverview } from "@/components/home/services-overview";
 import { CtaBanner } from "@/components/home/cta-banner";
-import { CheckCircle2, Zap, Shield, TrendingUp } from "lucide-react";
+import { Zap, Shield, TrendingUp } from "lucide-react";
 
 const stats = [
   { icon: Zap, title: "Lightning Fast", description: "Our solutions are optimized for maximum speed and performance." },
@@ -40,7 +40,7 @@ export default function ServicesPage() {
               Advantages
             </span>
             <h2 className="text-3xl font-bold font-space-grotesk mb-4">Why Choose <span className="text-primary">Our Services?</span></h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">We don't just write code, we deliver business value.</p>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">We don&apos;t just write code, we deliver business value.</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">

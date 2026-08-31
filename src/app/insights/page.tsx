@@ -1,5 +1,5 @@
 import { CtaBanner } from "@/components/home/cta-banner";
-import { ArrowRight, BookOpen, Lightbulb, TrendingUp } from "lucide-react";
+import { ArrowRight, Lightbulb, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
 const insights = [
@@ -29,7 +29,7 @@ const insights = [
   }
 ];
 
-function Code(props: any) {
+function Code(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

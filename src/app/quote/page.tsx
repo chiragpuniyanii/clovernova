@@ -11,13 +11,13 @@ export default function QuotePage() {
 
         <div className="container mx-auto max-w-2xl relative z-10">
           <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 border border-primary/20">
-            Let's Talk
+            Let&apos;s Talk
           </span>
           <h1 className="text-4xl md:text-6xl font-bold font-space-grotesk mb-6">
             Get a <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-green-400">Custom Quote</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-16">
-            At CloverNova, every project is unique. Our pricing depends on the scope, complexity, and specific requirements of your business. Let's discuss your vision and we'll craft a tailored proposal just for you.
+            At CloverNova, every project is unique. Our pricing depends on the scope, complexity, and specific requirements of your business. Let&apos;s discuss your vision and we&apos;ll craft a tailored proposal just for you.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 text-left">
@@ -47,7 +47,7 @@ export default function QuotePage() {
               </div>
               <h3 className="text-xl font-bold font-space-grotesk mb-3">Submit Project Details</h3>
               <p className="text-muted-foreground mb-8">
-                Have a detailed brief? Fill out our comprehensive form and we'll send you a formal proposal.
+                Have a detailed brief? Fill out our comprehensive form and we&apos;ll send you a formal proposal.
               </p>
               <Link 
                 href="/contact" 

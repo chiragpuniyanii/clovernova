@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { MessageCircle, Mail } from "lucide-react";
 
 const Instagram = ({ size = 24, className = "" }: { size?: number, className?: string }) => (

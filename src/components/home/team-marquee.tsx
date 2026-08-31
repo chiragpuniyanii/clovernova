@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User } from "lucide-react";
 
 const team = [
   {

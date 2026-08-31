@@ -55,7 +55,7 @@ export default function ContactPage() {
             Contact Us
           </span>
           <h1 className="text-4xl md:text-6xl font-bold font-space-grotesk mb-6">
-            Let's Work <span className="text-primary">Together</span>
+            Let&apos;s Work <span className="text-primary">Together</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Fill out the form below or use our direct contact details. Our team will get back to you within 24 hours to discuss your project.
@@ -116,7 +116,7 @@ export default function ContactPage() {
           <div className="lg:col-span-2 bg-card border border-border/50 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all">
             {isSuccess && (
               <div className="mb-8 p-4 bg-primary/10 border border-primary/20 text-primary rounded-lg text-center font-medium">
-                Thank you! Your message has been sent successfully. We'll be in touch soon.
+                Thank you! Your message has been sent successfully. We&apos;ll be in touch soon.
               </div>
             )}
             

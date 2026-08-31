@@ -114,7 +114,7 @@ export default function ServiceSlugPage({ params }: { params: { slug: string } }
               <div className="bg-gradient-to-br from-primary/10 to-transparent border border-primary/20 p-8 rounded-2xl text-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-background/50 backdrop-blur-sm -z-10" />
                 <h3 className="font-bold text-xl font-space-grotesk mb-3">Ready to start?</h3>
-                <p className="text-sm text-muted-foreground mb-6">Let's discuss how we can help with your {service.title} needs.</p>
+                <p className="text-sm text-muted-foreground mb-6">Let&apos;s discuss how we can help with your {service.title} needs.</p>
                 <Link href="/quote" className="inline-flex w-full justify-center bg-primary text-primary-foreground py-3 rounded-md font-medium hover:bg-primary/90 transition-colors shadow-sm">
                   Get a Quote
                 </Link>

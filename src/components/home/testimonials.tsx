@@ -55,7 +55,7 @@ export function Testimonials() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Don't just take our word for it. Here's what our partners have to say about working with CloverNova.
+            Don&apos;t just take our word for it. Here&apos;s what our partners have to say about working with CloverNova.
           </motion.p>
         </div>
 
@@ -71,7 +71,7 @@ export function Testimonials() {
             >
               <Quote className="absolute top-8 right-8 h-12 w-12 text-primary/10 group-hover:text-primary/20 transition-colors" />
               <p className="text-foreground/90 italic mb-8 relative z-10 text-lg leading-relaxed">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
               <div>
                 <p className="font-bold font-space-grotesk">{testimonial.name}</p>

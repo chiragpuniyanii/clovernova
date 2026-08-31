@@ -28,7 +28,7 @@ export function WhyCloverNova() {
               Why Choose <span className="text-primary">CloverNova?</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              We don't just build websites and apps; we build businesses. Our team is dedicated to delivering excellence through innovative solutions that solve real-world problems. We partner with you for the long term.
+              We don&apos;t just build websites and apps; we build businesses. Our team is dedicated to delivering excellence through innovative solutions that solve real-world problems. We partner with you for the long term.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
