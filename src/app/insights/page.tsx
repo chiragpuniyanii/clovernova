@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const insights = [
   {
+    slug: "nextjs-future",
     category: "Development",
     title: "Why Next.js is the Future of Enterprise Web Applications",
     description: "An in-depth look at how server-side rendering and static site generation are revolutionizing the way we build for the web.",
@@ -12,6 +13,7 @@ const insights = [
     readTime: "5 min read"
   },
   {
+    slug: "ui-ux-principles",
     category: "Design",
     title: "Designing for Conversion: UI/UX Principles That Work",
     description: "Beautiful design is only half the battle. Learn how to structure your user interfaces to guide visitors towards taking action.",
@@ -20,6 +22,7 @@ const insights = [
     readTime: "4 min read"
   },
   {
+    slug: "technical-seo-2026",
     category: "Marketing",
     title: "The Ultimate Guide to Technical SEO in 2026",
     description: "Stop losing traffic to competitors. Discover the technical optimizations that search engines actually care about today.",
@@ -108,7 +111,7 @@ export default function InsightsPage() {
                     <div className="text-xs text-muted-foreground">
                       {post.date} • {post.readTime}
                     </div>
-                    <Link href="#" className="text-primary hover:text-primary/80 transition-colors">
+                    <Link href={`/insights/${post.slug}`} className="text-primary hover:text-primary/80 transition-colors">
                       <ArrowRight className="h-5 w-5" />
                     </Link>
                   </div>
