@@ -80,6 +80,8 @@ const getServiceHref = (title: string) => {
       return "/contact?service=ui-ux-design";
     case "Shopify E-Commerce":
       return "/contact?service=ecommerce";
+    case "DevOps & CI/CD":
+      return "/contact?service=devops";
     default:
       return "/contact?service=other";
   }
