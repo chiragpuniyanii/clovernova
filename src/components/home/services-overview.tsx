@@ -66,6 +66,23 @@ interface ServicesOverviewProps {
   limit?: number;
 }
 
+const getServiceHref = (title: string) => {
+  switch (title) {
+    case "Web Development":
+      return "/contact?service=web-development";
+    case "App Development":
+      return "/contact?service=app-development";
+    case "Digital Marketing":
+      return "/contact?service=digital-marketing";
+    case "SEO Optimization":
+      return "/contact?service=seo";
+    case "Ethical Hacking":
+      return "/contact?service=ethical-hacking";
+    default:
+      return "/contact?service=other";
+  }
+};
+
 export function ServicesOverview({ limit }: ServicesOverviewProps) {
   const displayedServices = limit ? services.slice(0, limit) : services;
 
@@ -115,8 +132,12 @@ export function ServicesOverview({ limit }: ServicesOverviewProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-card border border-border/50 rounded-2xl p-8 shadow-sm hover:shadow-md hover:border-primary/50 transition-all group relative overflow-hidden"
+              className="h-full"
             >
+              <Link
+                href={getServiceHref(service.title)}
+                className="block h-full bg-card border border-border/50 rounded-2xl p-8 shadow-sm hover:shadow-md hover:border-primary/50 transition-all group relative overflow-hidden cursor-pointer"
+              >
               {/* Subtle hover gradient */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
@@ -129,6 +150,7 @@ export function ServicesOverview({ limit }: ServicesOverviewProps) {
                   {service.description}
                 </p>
               </div>
+              </Link>
             </motion.div>
           ))}
         </div>
