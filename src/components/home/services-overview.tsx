@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Smartphone, Megaphone, Search, ShieldAlert, Layout, ShoppingCart, PenTool, Cloud, ArrowRight, Box, Network, Sparkles } from "lucide-react";
+import { Code2, Smartphone, Megaphone, Search, ShieldAlert, Layout, ShoppingCart, PenTool, Cloud, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 const services = [
@@ -49,21 +49,6 @@ const services = [
     title: "Cloud Solutions",
     description: "Scalable cloud architecture and deployment solutions to ensure your applications run smoothly and securely.",
     icon: Cloud,
-  },
-  {
-    title: "Docker Containerization",
-    description: "Package your applications into isolated, portable Docker containers for consistent deployment across any environment.",
-    icon: Box,
-  },
-  {
-    title: "Kubernetes Orchestration",
-    description: "Manage, scale, and automate your containerized applications seamlessly with enterprise-grade Kubernetes clusters.",
-    icon: Network,
-  },
-  {
-    title: "And Many More...",
-    description: "Don't see what you're looking for? We offer fully custom technical solutions tailored to your unique requirements.",
-    icon: Sparkles,
   },
 ];
 

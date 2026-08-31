@@ -3,13 +3,27 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import DotField from "../ui/DotField";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-20">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
+    <section className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-20 group">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background z-0" />
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <DotField
+          dotRadius={2}
+          dotSpacing={14}
+          bulgeStrength={67}
+          glowRadius={160}
+          sparkle={true}
+          waveAmplitude={0}
+          gradientFrom="rgba(34, 197, 94, 0.8)" 
+          gradientTo="rgba(74, 222, 128, 0.5)"
+          glowColor="rgba(34, 197, 94, 0.3)"
+        />
+      </div>
       
-      <div className="container relative mx-auto px-4 md:px-6 flex flex-col items-center text-center">
+      <div className="container relative z-10 mx-auto px-4 md:px-6 flex flex-col items-center text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
